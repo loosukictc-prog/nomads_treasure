@@ -1,0 +1,14 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/afripicx/nomad-treasures#readme
+    about: Check our README and docs for answers
+  - name: 🚀 Deployment Guide
+    url: https://github.com/afripicx/nomad-treasures/blob/main/DEPLOYMENT.md
+    about: Help with deployment and hosting
+  - name: 💬 Discussions
+    url: https://github.com/afripicx/nomad-treasures/discussions
+    about: Ask questions and share ideas
+  - name: 🔐 Security Issue
+    url: https://github.com/afripicx/nomad-treasures/security/advisories
+    about: Report vulnerabilities privately

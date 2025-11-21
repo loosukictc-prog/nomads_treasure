@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nomad Treasures - Redirecting...</title>
+  <script>
+    // GitHub Pages SPA Router
+    // This script redirects 404s back to index.html with the original path
+    // so that React Router can handle client-side routing
+    
+    const pathname = window.location.pathname;
+    const redirectUrl = '/?path=' + encodeURIComponent(pathname + window.location.search + window.location.hash);
+    
+    // Redirect only if not already at root
+    if (pathname !== '/' && pathname !== '/index.html') {
+      window.location.replace(redirectUrl);
+    } else {
+      // If we're at root, just go to index.html
+      window.location.replace('/');
+    }
+  </script>
+</head>
+<body>
+  <p>Redirecting...</p>
+</body>
+</html>

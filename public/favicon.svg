@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Nomad Treasures Favicon</title>
+  <defs>
+    <style>
+      .text { font: 700 28px Inter, Ubuntu, Arial, sans-serif; }
+    </style>
+  </defs>
+  <circle cx="32" cy="32" r="30" fill="#A62929" />
+  <text x="32" y="40" text-anchor="middle" class="text" fill="#F4EBD0">NT</text>
+</svg>
